@@ -8,11 +8,10 @@ var Main = (props) => {
             <Nav />
             <div >
                 <div >
-                    
-                     {props.children}
+                    {props.children}
                 </div>
             </div>
-        </div> 
+        </div>
     );
 };
 
